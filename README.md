@@ -36,13 +36,13 @@ Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup 
 
 4. Which months have the lowest and the highest atmospheric pressure on Mars? Plot the results as a bar chart.
 
-![alt text](average_pressure.png)
+![average_pressure_by_month_bar_chart](Output/average_pressure.png)
 
 **The month with the lowest atmospheric pressure is month 6. The month with the highest atmospheric pressure is month 9.**
 
 5. About how many terrestrial (Earth) days exist in a Martian year? Visually estimate the result by plotting the daily minimum temperature.
 
-![alt text](terrestrial_days.png)
+![terrestrial_days_bar_chart](Output/terrestrial_days.png)
 
 **There is roughly around 675 days in a Martian year from the plot. Internet search confirms that a Mars year is equivalent to 687 earth days.** 
 
