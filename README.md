@@ -1,14 +1,19 @@
 # data-collection-challenge
 
-Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup objects were created to extract HTML code for both Jupyter Notebooks. `Mars/part_1_mars_news.ipynb` scrapes Mars news from web and stores the information in a list of Python dictionaries. This data is also stored in `Output/scraped_mars_news_data.json`. `Mars/part_2_mars_weather.ipynb` scrapes Mars temperature/weather information from the web and stores the information into a Pandas DataFrame. `Output/mars_weather.csv` is the output csv file for the Pandas DataFrame with Mars temperature/weather information from part 2.
+As part of this assignment, following deliverables to be submitted:
+* Deliverable 1: Scrape titles and preview text from Mars news articles.
+* Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
+Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup objects were created to extract HTML code for both Jupyter Notebooks. 
+  `Mars/part_1_mars_news.ipynb` scrapes Mars news from web and stores the information in a list of Python dictionaries. This data is also stored in `Output/scraped_mars_news_data.json`. 
+  `Mars/part_2_mars_weather.ipynb` scrapes Mars temperature/weather information from the web and stores the information into a Pandas DataFrame. `Output/mars_weather.csv` is the output csv file for the Pandas DataFrame with Mars temperature/weather information from part 2.
 
 
 ## Part 1: Scrape Titles and Preview Text from Mars News
 
 * Automated browsing (with Splinter) was used to visit the Mars news site, and the HTML code was extracted (with Beautiful Soup).
 * The titles and preview text of the news articles were scraped and extracted, and stored in a list of dictionaries.
-[{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm",
-  'preview': 'For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27.'}, ...]
+`[{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm",
+  'preview': 'For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27.'}, ...]`
 * This scraped data was then stored in a JSON file: `Output/scraped_mars_news_data.json`  
 
 
