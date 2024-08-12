@@ -30,7 +30,7 @@ Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup 
 2. How many Martian (and not Earth) days worth of data exist in the scraped dataset? 1867
 3. What are the coldest and the warmest months on Mars (at the location of Curiosity)? Plot the average temperature by month.
 
-![alt text](average_temperature_by_month.png)
+Output/average_temperature_by_month.png
 
 **The coldest month in Curiosity's location is month 3. The hottest month in Curiosity's location is month 8.**
 
