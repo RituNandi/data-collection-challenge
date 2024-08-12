@@ -22,7 +22,7 @@ Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup 
 
 * Splinter and Beautiful Soup were used to scrape the data.
 
-* The HTML table was extracted into a Pandas DataFrame. DataFrame was created with all columns listed on the website.
+* The HTML table was extracted into a Pandas DataFrame. DataFrame was created with all columns listed on the website.                                                                                                                        
 ![image](https://github.com/user-attachments/assets/a85952e7-33ed-4a20-95be-2c689a01ca3a)
 
 
