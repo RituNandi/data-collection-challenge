@@ -23,13 +23,13 @@ Automated browsing was enabled by Splinter and WebDriver Manager. BeautifulSoup 
 * Splinter and Beautiful Soup were used to scrape the data.
 
 * The HTML table was extracted into a Pandas DataFrame. DataFrame was created with all columns listed on the website.
-|	|id	|terrestrial_date |sol	|ls	|month	|min_temp  |pressure    |
-|-------|-------|-----------------|-------------|-------|----------|------------|
-|0	|2	|2012-08-16	  |10	|155	|6	|-75.0	   |739.0	|
-|1	|13	|2012-08-17	  |11	|156	|6	|-76.0	   |740.0	|
-|2	|24	|2012-08-18	  |12	|156	|6	|-76.0	   |741.0	|
-|3	|35	|2012-08-19	  |13	|157	|6	|-74.0	   |732.0	|
-|4	|46	|2012-08-20	  |14	|157	|6	|-74.0	   |740.0	|
+|  	|id	|terrestrial_date |sol	|ls	  |month	|min_temp  |pressure  |
+|---|---|-----------------|-------------------|----------|----------|
+|0	|2	|2012-08-16	      |10	  |155	|6	    |-75.0	   |739.0	    |
+|1	|13	|2012-08-17	      |11	  |156	|6	    |-76.0	   |740.0	    |
+|2	|24	|2012-08-18	      |12	  |156	|6	    |-76.0	   |741.0	    |
+|3	|35	|2012-08-19	      |13	  |157	|6	    |-74.0	   |732.0	    |
+|4	|46	|2012-08-20	      |14	  |157	|6	    |-74.0	   |740.0	    |
 
 * The dataset was analyzed using Pandas functions:to answer the following questions:
 
